@@ -18,7 +18,7 @@ The Life-Saving App
 
 ### Separation of Concern
 
-* Since this is an app used by both governmnet and common people it is best to separate them and deliver according to each of their needs
+* Since this is an app used by both government and common people it is best to separate them and deliver according to each of their needs
 
 * Government has separate use cases
 
@@ -45,8 +45,8 @@ The Life-Saving App
 #### Use case of People
 
 * Check weather forecast.
-* Check weather it is safe to go outside.
-* Register with the web-app to get notification on natural disaster.
+* Check whether it is safe to go outside.
+* Register with the web-app to get a notification on the natural disaster.
 * Get safety measures, tips and guidelines to be followed to remain safe.
 * Get emergency contact numbers and email ids in case of natural disaster.
 * Share information on Social Media
@@ -55,9 +55,9 @@ The Life-Saving App
 
 * It is a *complete* app.
 
-* Some apps show weather forecast, some apps sends emails and messages, but this app combines the best of all existing solutions.
+* Some apps show weather forecast, some apps send emails and messages, but this app combines the best of all existing solutions.
 
-* *Scalable*: Market is very huge and it is relatively simple solution
+* *Scalable*: Market is very huge and it is a relatively simple solution
 
 * Highly *effective* solution as it alerts both the user and the government.
 
@@ -65,31 +65,32 @@ The Life-Saving App
 
 * Helps users with/ without internet connectivity (Feasible).
 
-* Easy UI for government/ users to post/get necessary information.
+* Easy UI for government/ users to post/get the necessary information.
 
 * Feature to share on social media: One of the best ways to share information.
 
+
 ### Practices for development
 
-* Follow agile framework (since it is a hackathon:)).
-* Divide each of the use-case of both government into features and tasks.
-* Assign these tasks to smaller sprints.
-* Complete each sprint with unit and integration testing.
-* System and acceptance testing at the end.
+* Follow agile framework (since it is a hackathon:)). 
+* Divide each of the use-cases of both government into features and tasks.
+* Assign these tasks to smaller sprints
+* Complete each sprint with the unit and integration testing.
+* Performed system and acceptance testing.
 
 ### Usage and Feasibility
 
 #### With internet connection
 
-* Users can avail each of the usecase specific to them(government, people) by opening the app on a browser.
+* Users can avail each of the use case specific to them(government, people) by opening the app on a browser.
 * Avail emergency numbers and Email-IDs to contact.
 * Get notified via email-id, social media.
 
 #### Without internet connection
 
-* The web app sends message through phone so even people in remote areas get notified.
+* The web app sends a message through phone so even people in remote areas get notified.
 * Avail emergency numbers to contact.
-* [Further development] Notified by government via radio.
+* [Further development] Notified by the government via radio.
 
 ## Datasets
 
@@ -101,7 +102,7 @@ The Life-Saving App
 
 ### Weather reports
 
-* Obtained from government.
+* Obtained from the government.
 
 * Obtained through web scraping(Where it is legal).
 
@@ -115,7 +116,7 @@ The Life-Saving App
 ## Project Scope
 
 * Can be used by government and people everywhere.
-* Since it is cost-effective solution, it can be developed easily and quickly.
+* Since it is a cost-effective solution, it can be developed easily and quickly.
 * Open Source development.
 
 ## Technologies Used
