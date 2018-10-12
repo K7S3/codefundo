@@ -121,6 +121,12 @@ The Life-Saving App
 * E-mail ID provided by government/person.
 * Phone number provided by government/person
 
+## Project Scope
+
+* Can be used by government and people everywhere.
+* Since it is cost-effective solution, it can be developed easily and quickly.
+* Open Source development.
+
 ## Technologies Used
 
 * Python
