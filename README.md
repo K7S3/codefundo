@@ -1,6 +1,6 @@
 # idea for codefundo++
 
-The Life-Saving App
+Weather Safety App
 
 ## Synopsis
 
