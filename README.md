@@ -57,10 +57,29 @@ The Life-Saving App
 * Get emergency contact numbers and email ids in case of natural disaster.
 * Share on Social Media
 
-### Practices for further development
+### Uniqueness of Solution
+
+* It is a *complete* app.
+
+* Some apps show weather forecast, some apps sends emails and messages, but this app combines the best of all existing solutions.
+
+* *Scalable*: Market is very huge and it is relatively simple solution
+
+* Highly *effective* solution as it alerts both the user and the government.
+
+* Easy to maintain and develop.
+
+* Helps users with/ without internet connectivity (Feasible).
+
+* Easy UI for government/ users to post/get necessary information.
+
+* Feature to share on social media: One of the best ways to share information.
+
+
+### Practices for development
 
 * Follow agile framework since multiple users may work simultaneously.
-* Divide each of the use-case of both government into features and task
+* Divide each of the use-case of both government into features and tasks.
 * Divide these tasks into sprints
 * Complete each sprint with unit and integration testing
 * Perform system and acceptance testing.
