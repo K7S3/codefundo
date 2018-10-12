@@ -69,16 +69,13 @@ The Life-Saving App
 
 * Feature to share on social media: One of the best ways to share information.
 
+### Practices for development
 
-### Practices for future  development
-
-* Follow agile framework since multiple users may work simultaneously.
+* Follow agile framework (since it is a hackathon:)).
 * Divide each of the use-case of both government into features and tasks.
-* Assign these tasks to sprints
-* Complete each sprint with unit and integration testing
-* Perform system and acceptance testing.
-* Collect feedback and add it to product backlog.
-* Move it to production
+* Assign these tasks to smaller sprints.
+* Complete each sprint with unit and integration testing.
+* System and acceptance testing at the end.
 
 ### Usage and Feasibility
 
