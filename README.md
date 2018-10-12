@@ -131,6 +131,8 @@ The Life-Saving App
 
 * Python
 
+* Flask
+
 * SQL
 
 * HTML
