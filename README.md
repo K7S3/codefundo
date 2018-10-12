@@ -2,25 +2,19 @@
 
 The Life-Saving App
 
-## Features
+## Synopsis
 
-* This app collects and displays the current weather information.
+* A complete web app catering to the needs of both users and the government in order to predict natural disasters and save lives.
 
-* Predicts whether it is safe to go out and display to user.
+## Solution
 
-* Sends warnings to all people in the city/region about the possible occurence of a natural disaster through E-mail and Message.
-
-* Users can avail emergency contact numbers for help specific to the region in case of a natural disaster.
-
-* Users shall have an option to share this information on social media.
-
-## How does it work
-
-### Collect weather information
+### Collect and display weather information
 
 * This app uses web-scraping for collecting weather reports from multiple other websites.(Wherever it is legal)
 
 * Also collect information from the government.
+
+* Display the above data.
 
 ### Separation of Concern
 
@@ -46,7 +40,7 @@ The Life-Saving App
 
 * Store emergency contact email-ids and phone numbers
 
-* Share on Social Media
+* Share information on Social Media
 
 #### Use case of People
 
@@ -55,7 +49,7 @@ The Life-Saving App
 * Register with the web-app to get notification on natural disaster.
 * Get safety measures, tips and guidelines to be followed to remain safe.
 * Get emergency contact numbers and email ids in case of natural disaster.
-* Share on Social Media
+* Share information on Social Media
 
 ### Uniqueness of Solution
 
@@ -76,11 +70,11 @@ The Life-Saving App
 * Feature to share on social media: One of the best ways to share information.
 
 
-### Practices for development
+### Practices for future  development
 
 * Follow agile framework since multiple users may work simultaneously.
 * Divide each of the use-case of both government into features and tasks.
-* Divide these tasks into sprints
+* Assign these tasks to sprints
 * Complete each sprint with unit and integration testing
 * Perform system and acceptance testing.
 * Collect feedback and add it to product backlog.
