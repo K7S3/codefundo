@@ -1,2 +1,119 @@
-# codefundo
-Project for Microsoft codefundo
+# idea for codefundo++
+
+The Life-Saving App
+
+## Features
+
+* This app collects and displays the current weather information.
+
+* Predicts whether it is safe to go out and display to user.
+
+* Sends warnings to all people in the city/region about the possible occurence of a natural disaster through E-mail and Message.
+
+* Users can avail emergency contact numbers for help specific to the region in case of a natural disaster.
+
+* Users shall have an option to share this information on social media.
+
+## How does it work
+
+### Collect weather information
+
+* This app uses web-scraping for collecting weather reports from multiple other websites.(Wherever it is legal)
+
+* Also collect information from the government.
+
+### Separation of Concern
+
+* Since this is an app used by both governmnet and common people it is best to separate them and deliver according to each of their needs
+
+* Government has separate use cases
+
+* People have separate use cases
+
+#### Use cases of government
+
+* Get alerted by the web app for a possible natural disaster.
+
+* Add/Delete/Modify weather reports.
+
+* The government shall have the authority to send warning e-mails and messages to all people in the city/region affected by natural disaster.
+
+* Government has the option to add/ delete/modify email-ids and phone numbers of all the people in the city/region.
+
+* This data is stored in the web-app and it shall automatically send emails and message to all people stored in the database.
+
+* Add/Delete/Modify safety measures and guidelines to be followed.
+
+* Store emergency contact email-ids and phone numbers
+
+* Share on Social Media
+
+#### Use case of People
+
+* Check weather forecast.
+* Check weather it is safe to go outside.
+* Register with the web-app to get notification on natural disaster.
+* Get safety measures, tips and guidelines to be followed to remain safe.
+* Get emergency contact numbers and email ids in case of natural disaster.
+* Share on Social Media
+
+### Practices for further development
+
+* Follow agile framework since multiple users may work simultaneously.
+* Divide each of the use-case of both government into features and task
+* Divide these tasks into sprints
+* Complete each sprint with unit and integration testing
+* Perform system and acceptance testing.
+* Collect feedback and add it to product backlog.
+* Move it to production
+
+### Usage and Feasibility
+
+#### With internet connection
+
+* Users can avail each of the usecase specific to them(government, people) by opening the app on a browser.
+* Avail emergency numbers and Email-IDs to contact.
+* Get notified via email-id, social media.
+
+#### Without internet connection
+
+* The web app sends message through phone so even people in remote areas get notified.
+* Avail emergency numbers to contact.
+* [Further development] Notified by government via radio.
+
+## Datasets
+
+### Regions
+
+* Follows this order: Countries, States, Cities.
+
+* Narrows down to particular regions affected by the disaster.
+
+### Weather reports
+
+* Obtained from government.
+
+* Obtained through web scraping(Where it is legal).
+
+### User data
+
+* Name provided by government/person.
+
+* E-mail ID provided by government/person.
+* Phone number provided by government/person
+
+## Technologies Used
+
+* Python
+
+* SQL
+
+* HTML
+
+* Bootstrap
+
+* CSS
+
+* JavaScript
+
+* PHP
